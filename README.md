@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/spatialcurrent/go-fit/tree/master.svg?style=svg)](https://circleci.com/gh/spatialcurrent/go-fit/tree/master) [![Go Report Card](https://goreportcard.com/badge/spatialcurrent/go-fit)](https://goreportcard.com/report/spatialcurrent/go-fit)  [![GoDoc](https://godoc.org/github.com/spatialcurrent/go-fit?status.svg)](https://godoc.org/github.com/spatialcurrent/go-fit) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/spatialcurrent/go-fit/blob/master/LICENSE)
+[![CircleCI](https://circleci.com/gh/spatialcurrent/go-fit/tree/master.svg?style=svg)](https://circleci.com/gh/spatialcurrent/go-fit/tree/master) [![Go Report Card](https://goreportcard.com/badge/spatialcurrent/go-fit)](https://goreportcard.com/report/spatialcurrent/go-fit)  [![PkgGoDev](https://pkg.go.dev/badge/github.com/spatialcurrent/go-fit)](https://pkg.go.dev/github.com/spatialcurrent/go-fit) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://github.com/spatialcurrent/go-fit/blob/master/LICENSE)
 
 # go-fit
 
@@ -18,7 +18,7 @@ import (
 )
 ```
 
-See [fit](https://godoc.org/github.com/spatialcurrent/go-fit/pkg/fit) in GoDoc for API documentation and examples.
+See [go.dev](https://pkg.go.dev/github.com/spatialcurrent/go-fit/) for information on how to use Go API.
 
 # Testing
 
