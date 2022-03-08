@@ -1,11 +1,11 @@
 // =================================================================
 //
-// Copyright (C) 2020 Spatial Current, Inc. - All Rights Reserved
+// Copyright (C) 2022 Spatial Current, Inc. - All Rights Reserved
 // Released as open source under the MIT License.  See LICENSE file.
 //
 // =================================================================
 
-// +build tools
+//go:build tools
 
 // This file exists to track tool dependencies. This is one of the recommended practices
 // for handling tool dependencies in a Go module as outlined here:
@@ -15,7 +15,6 @@ package tools
 
 import (
 	_ "github.com/client9/misspell"
-	_ "github.com/gordonklaus/ineffassign"
 	_ "github.com/kisielk/errcheck"
 	_ "golang.org/x/tools/cmd/goimports"
 	_ "golang.org/x/tools/go/analysis/passes/shadow/cmd/shadow"

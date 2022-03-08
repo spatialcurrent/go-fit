@@ -2,7 +2,7 @@
 
 # =================================================================
 #
-# Copyright (C) 2020 Spatial Current, Inc. - All Rights Reserved
+# Copyright (C) 2022 Spatial Current, Inc. - All Rights Reserved
 # Released as open source under the MIT License.  See LICENSE file.
 #
 # =================================================================
@@ -27,9 +27,6 @@ go vet -vettool="bin/shadow" $pkgs
 echo "******************"
 echo "Running errcheck"
 bin/errcheck ${pkgs}
-echo "******************"
-echo "Running ineffassign"
-find . -name '*.go' | xargs bin/ineffassign
 echo "******************"
 echo "Running staticcheck"
 bin/staticcheck -checks all ${pkgs}

@@ -1,13 +1,21 @@
 module github.com/spatialcurrent/go-fit
 
-go 1.15
+go 1.17
 
 require (
-	dmitri.shuralyov.com/go/generated v0.0.0-20170818220700-b1254a446363 // indirect
-	github.com/client9/misspell v0.3.4 // indirect
-	github.com/gordonklaus/ineffassign v0.0.0-20201107091007-3b93a8888063 // indirect
-	github.com/kisielk/errcheck v1.4.0 // indirect
-	github.com/stretchr/testify v1.6.1
-	golang.org/x/tools v0.0.0-20201218024724-ae774e9781d2 // indirect
-	honnef.co/go/tools v0.1.0 // indirect
+	github.com/client9/misspell v0.3.4
+	github.com/kisielk/errcheck v1.6.0
+	github.com/stretchr/testify v1.7.0
+	golang.org/x/tools v0.1.9
+	honnef.co/go/tools v0.2.2
+)
+
+require (
+	github.com/BurntSushi/toml v0.3.1 // indirect
+	github.com/davecgh/go-spew v1.1.0 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	golang.org/x/mod v0.5.1 // indirect
+	golang.org/x/sys v0.0.0-20211019181941-9d821ace8654 // indirect
+	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
