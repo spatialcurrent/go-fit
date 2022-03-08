@@ -1,20 +1,25 @@
+# =================================================================
+#
+# Copyright (C) 2022 Spatial Current, Inc. - All Rights Reserved
+# Released as open source under the MIT License.  See LICENSE file.
+#
+# =================================================================
+
 version: "2.1"
 
 executors:
-  # `main` uses the `cimg/go:1.15` docker image.
+  # `main` uses the `cimg/go:1.17` docker image.
   main:
     docker:
-      - image: cimg/go:1.15
+      - image: cimg/go:1.17
 
 jobs:
 
-  # `test_go` tests the gocat source code.
+  # `test_go` tests the source code.
   test_go:
     executor: main
     steps:
       - checkout
-      - setup_remote_docker:
-          docker_layer_caching: false
       - run: make fmt
       - run: make imports
       - run: make test_go
