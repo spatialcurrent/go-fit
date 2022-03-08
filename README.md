@@ -24,7 +24,7 @@ import (
 The easiest pattern is to use the `fit.Fit(in interface{}) interface{}` function.
 
 ```go
-fitObject := Fit(obj)
+fittedObject := fit.Fit(obj)
 ```
 
 See [fit](https://pkg.go.dev/github.com/spatialcurrent/go-fit/pkg/fit) in the docs for information on how to use Go API.
