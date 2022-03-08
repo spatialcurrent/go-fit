@@ -31,7 +31,7 @@ See [fit](https://pkg.go.dev/github.com/spatialcurrent/go-fit/pkg/fit) in the do
 
 # Testing
 
-To run Go tests using `make test_go` or (`bash scripts/test.sh`), which runs unit tests, `go vet`, `go vet with shadow`, [errcheck](https://github.com/kisielk/errcheck), [staticcheck](https://staticcheck.io/), and [misspell](https://github.com/client9/misspell).
+To run Go tests use `make test_go` or (`bash scripts/test.sh`), which runs unit tests, `go vet`, `go vet with shadow`, [errcheck](https://github.com/kisielk/errcheck), [staticcheck](https://staticcheck.io/), and [misspell](https://github.com/client9/misspell).
 
 # Contributing
 
